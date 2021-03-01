@@ -152,29 +152,7 @@ body#layout .main-webblog {width:100%;margin:0px;padding:0px}
 --></style>
 </head>
 <body>
-<!-- Load Facebook SDK for JavaScript -->
-      <div id="fb-root"></div>
-      <script>
-        window.fbAsyncInit = function() {
-          FB.init({
-            xfbml            : true,
-            version          : 'v10.0'
-          });
-        };
 
-        (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));</script>
-
-      <!-- Your Chat Plugin code -->
-      <div class="fb-customerchat"
-        attribution="setup_tool"
-        page_id="1335764223231602">
-      </div>
 <header>
 <a href='https://www.kietvo.xyz'><img alt='Unlimited Google Drive' height='48' id='img1' src='https://www.upsieutoc.com/images/2021/02/28/84712424_1580940758713946_4860787404266536960_n-20.47.03ab58b19b22a82d05.jpg' width='48px'/></a>
 <ul class='nav'>
@@ -278,6 +256,29 @@ _WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId': '60264202804
 _WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', document.getElementById('Blog1'), {'cmtInteractionsEnabled': false, 'lightboxEnabled': true, 'lightboxModuleUrl': 'https://www.blogger.com/static/v1/jsbin/3772419891-lbx__vi.js', 'lightboxCssUrl': 'https://www.blogger.com/static/v1/v-css/1050234869-lightbox_bundle.css'}, 'displayModeFull'));
 </script>
 </body>-->
+      <!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v10.0'
+          });
+        };
+
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+      <!-- Your Chat Plugin code -->
+      <div class="fb-customerchat"
+        attribution="setup_tool"
+        page_id="1335764223231602">
+      </div>
 </body>
 
 <!-- Mirrored from driverapptemplate.blogspot.com/p/lien-he.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 28 Feb 2021 01:09:02 GMT -->
